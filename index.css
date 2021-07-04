@@ -1,0 +1,41 @@
+/*@font-face {*/
+/*    font-family: 'childs_hand';*/
+/*    src: url('./fonts/ChildsHand.ttf');*/
+/*}*/
+
+@import url('https://fonts.googleapis.com/css2?family=Changa+One:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Changa+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap');
+
+:root {
+    --background-color: #e60000;
+}
+
+body {
+    font-family: 'Fugaz One', cursive !important;
+    background-color: var(--background-color) !important;
+}
+
+.content{
+    height: 100vh;
+}
+
+.content-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.head{
+    color: white;
+
+    font-size: 4em;
+}
+
+/*breakpoint for smaller screens*/
+@media only screen and (max-width: 992px) {
+}
+
+/*breakpoint for bigger screens*/
+@media only screen and (min-width: 992px) {
+}
